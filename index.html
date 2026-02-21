@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Clean</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f6f9;
+  color:#333;
+}
+
+header{
+  background:#0d47a1;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+
+/* Espace réduit intelligemment */
+section{
+  padding:40px 20px;
+  max-width:1100px;
+  margin:30px auto;
+}
+
+/* Encadrement sauf sections exclues */
+.boxed{
+  background:white;
+  border-radius:12px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
+  padding:40px 25px;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:28px;
+  color:black;
+}
+
+.tarifs{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.price{
+  background:#1976d2;
+  color:white;
+  padding:25px;
+  border-radius:10px;
+}
+
+.price p{
+  margin:10px 0;
+}
+
+.gallery{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.gallery img{
+  width:300px;
+  border-radius:10px;
+}
+
+.button-dark{
+  background:#0d47a1;
+  color:white;
+  padding:15px;
+  text-align:center;
+  border-radius:8px;
+  display:block;
+  text-decoration:none;
+  margin-top:20px;
+}
+
+.button-green{
+  background:#25D366;
+  color:white;
+  padding:15px;
+  text-align:center;
+  border-radius:8px;
+  display:block;
+  text-decoration:none;
+  margin-top:20px;
+}
+
+footer{
+  background:#0d47a1;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+
+@media(max-width:768px){
+  .gallery img{
+    width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Royal Clean Pressing&Laverie</h1>
+  <p>Palais de la propreté et de l'Elégance a Lomé</p>
+</header>
+
+<section class="boxed">
+  <h2>👋 Bienvenue à Royal Clean</h2>
+  <p style="text-align:center;">
+    Royal Clean Pressing & Laverie ✨  
+    Spécialiste du nettoyage à sec 👔, du repassage 🧺, du blanchissement et du lavage de chaussures 👞.  
+    Nous collectons vos linges chez vous 🚚, les traitons avec soin et vous les livrons impeccables ✅.  
+    Notre mission : qualité, rapidité et fiabilité.
+  </p>
+</section>
+
+<section class="boxed">
+  <h2>🥇 Pourquoi choisir Royal Clean ?</h2>
+  <div style="text-align:center; line-height:2;">
+    🎯 <strong>Précision</strong><br>
+    Nous traitons vos vêtements et chaussures avec soin et délicatesse.<br><br>
+
+    ⚡ <strong>Rapidité</strong><br>
+    Livraison sous 48h.<br><br>
+
+    ⭐ <strong>Satisfaction</strong><br>
+    Nos clients reviennent pour notre efficacité et notre expertise.
+  </div>
+</section>
+
+<section>
+  <h2>📸 Découvrez Royal Clean</h2>
+  <div class="gallery">
+    <img src="images/photo3.jpg" alt="Royal Clean1">
+    <img src="images/photo4.jpg" alt="Royal Clean2">
+  </div>
+</section>
+
+<section>
+  <h2>💰 Tarifs</h2>
+  <h3 style="text-align:center; margin-bottom:10px;">Voici nos différents tarifs</h3>
+  <h3 style="text-align:center; margin-bottom:30px;">1 - Tarif par pièce</h3>
+
+  <div class="tarifs">
+    <div class="price">
+      <table style="width:100%; color:white; border-collapse: collapse;">
+        <tr>
+          <th style="text-align:left; padding:8px;">Article</th>
+          <th style="text-align:right; padding:8px;">Prix</th>
+        </tr>
+        <tr><td style="padding:6px;">Polo / Lacoste</td><td style="text-align:right;">500 F</td></tr>
+        <tr><td style="padding:6px;">Chemise manches courtes / longues</td><td style="text-align:right;">500 F / 700 F</td></tr>
+        <tr><td style="padding:6px;">Veste</td><td style="text-align:right;">1 000 F</td></tr>
+        <tr><td style="padding:6px;">Costume</td><td style="text-align:right;">À partir de 2 000 F</td></tr>
+        <tr><td style="padding:6px;">Blouse complet</td><td style="text-align:right;">1 200 F</td></tr>
+        <tr><td style="padding:6px;">Chaussures</td><td style="text-align:right;">1 500 F</td></tr>
+        <tr><td style="padding:6px;">Basin</td><td style="text-align:right;">4 000 F</td></tr>
+        <tr><td style="padding:6px;">Serviette</td><td style="text-align:right;">500 F / 1 200 F / 2 000 F</td></tr>
+        <tr><td style="padding:6px;">Jean</td><td style="text-align:right;">500 F / 700 F</td></tr>
+        <tr><td style="padding:6px;">Drap</td><td style="text-align:right;">1 500 F</td></tr>
+        <tr><td style="padding:6px;">Rideaux</td><td style="text-align:right;">1 000 F / 2 000 F / 3 000 F</td></tr>
+        <tr><td style="padding:6px;">Couette</td><td style="text-align:right;">3 000 F / 5 000 F / 7 000 F</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h3 style="text-align:center; margin:50px 0 30px 0;">2-🧺 Lavage par Kilo</h3>
+
+  <div class="tarifs">
+    <div class="price">
+      <p>5kg Lavage + Séchage = 3 000 F</p>
+      <p>5kg Lavage + Séchage + Repassage = 5 000 F</p>
+    </div>
+
+    <div class="price">
+      <p>10kg Lavage + Séchage = 5 000 F</p>
+      <p>10kg Lavage + Séchage + Repassage = 10 000 F</p>
+    </div>
+
+    <div class="price">
+      <p>20kg Lavage + Séchage = 9 000 F</p>
+      <p>20kg Lavage + Séchage + Repassage = 18 000 F</p>
+    </div>
+  </div>
+</section>
+
+<section class="boxed">
+  <h2>💳 Paiement</h2>
+  <p style="text-align:center;">
+    Paiement en espèces, Mixx by Yas ou Mobile Money.<br>
+    <strong>Mixx : 72 33 23 86</strong><br>
+    <strong>Mobile Money : 97 49 17 17</strong><br>
+    Après paiement, envoyez la capture d’écran pour validation ✅
+  </p>
+</section>
+
+<section class="boxed">
+  <h2>🕒 Horaires d'ouverture</h2>
+  <p style="text-align:center;">
+    Du lundi au Samedi de 8h à 20h.
+  </p>
+</section>
+
+<section class="boxed">
+  <h2>📘 Politique de Commercialisation</h2>
+  <p style="text-align:center;">
+    🚚 Nous venons chercher vos linges chez vous, les pressons et vous les ramenons.<br>
+    📲 Commandez facilement via le bouton WhatsApp.
+  </p>
+</section>
+
+<section class="boxed">
+  <h2>📍 Notre adresse</h2>
+  <p style="text-align:center;">Cliquez pour voir notre emplacement :</p>
+  <a href="https://maps.app.goo.gl/5d8ygYMtNb78Lxft7" target="_blank" class="button-dark">
+    Voir sur Google Maps
+  </a>
+</section>
+
+<section class="boxed">
+  <h2>📞 Contact</h2>
+  <p style="text-align:center;">
+    +228 72 33 23 86 pour vos SMS et Appels.<br>
+    Sur WhatsApp: 👇
+  </p>
+  <a href="https://wa.me/22897491717" target="_blank" class="button-green">
+    Discuter sur WhatsApp
+  </a>
+</section>
+
+<section class="boxed">
+  <h2>💬 Témoignage</h2>
+  <p style="text-align:center;">
+    Votre témoignage compte, dites-nous comment vous trouvez nos services.
+  </p>
+  <a href="mailto:royalclean228@gmail.com" class="button-dark">
+    royalclean228@gmail.com
+  </a>
+</section>
+
+<footer>
+  © 2026 Royal Clean - Tous droits réservés
+</footer>
+
+</body>
+</html>
